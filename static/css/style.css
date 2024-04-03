@@ -1,0 +1,73 @@
+/* CSS styling for the Homepage (home.html) */
+
+html {
+    background-image: url("../images/background.jpg");   
+}
+
+body {
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;    
+    color: black;
+    letter-spacing: 0.07em;
+}
+
+
+.description {
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+    font-style: bold;
+    color: #0044c4;
+}
+
+.input-box {
+    width: 50em;
+    height: 2em;
+    border-style: solid; 
+    border-width: 0.1em; 
+    border-color: black; 
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+.save-load {
+    width: 4em;
+    height: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.07em;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.1em;
+    background: #0044c4;
+}
+
+.save-load:hover {
+   border-color: #0099ff;
+   border-width: 0.2em;
+}
+
+.fetched-text {
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.alert {
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+    font-style: italic;
+    color: rgb(200, 0, 0);
+    visibility: hidden;
+}

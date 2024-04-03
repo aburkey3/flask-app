@@ -1,0 +1,25 @@
+<!-- HTML for AVN Test -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>AVN Test</title>
+</head>
+<body>
+    <h1 class="page-title">AVN Test</h1>
+    <p class="description">
+        Enter text in the box below. Clicking Save will save the text and reset the box. Clicking Load will load and display all saved text.
+    </p>
+    <form>
+        <input class="input-box" type="text" id="text-entry">
+        <p class="alert" id="alert">You cannot save an empty string</p>
+        <button class="save-load" type="button" id="save-button" name="save-button">Save</button>
+        <button class="save-load" type="button" id="load-button" name="load-button">Load</button><br>
+    </form>
+    <div class="fetched-text" id="text-contents">
+    </div>
+    <script type=text/javascript src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
